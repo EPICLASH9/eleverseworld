@@ -16,3 +16,23 @@ body {
 .logo {
   height: 60px;
 }
+
+.nav-bar {
+  background-color: #222;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+  color: #ff4c4c;
+}
+
