@@ -19,8 +19,10 @@ body {
 
 .nav-bar {
   background-color: #222;
+  display: flex;              /* makes the links go in a row */
+  justify-content: center;    /* centers them */
+  gap: 30px;                  /* space between links */
   padding: 15px 0;
-  text-align: center;
 }
 
 .nav-bar a {
